@@ -28,7 +28,7 @@ const [quantity,setQuantity] = useState("");
 
 
       const res = await fetch(
-        "http://localhost:5000/api/inventory",
+        "https://sari-sari-store-app.onrender.com/api/inventory",
         {
           headers:{
             Authorization:`Bearer ${token}`
@@ -70,7 +70,7 @@ async function handleStockIn(){
 
 
     await fetch(
-      "http://localhost:5000/api/inventory/stock-in",
+      "https://sari-sari-store-app.onrender.com/api/inventory/stock-in",
       {
         method:"POST",
 
