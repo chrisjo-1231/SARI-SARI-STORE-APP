@@ -15,7 +15,7 @@ app.use(cors({
     "http://localhost:5173",
     https://sari-sari-store-app-gamma.vercel.app/"
   ],
-  credentials: true
+  credentials: true,
 }));
 
 app.use(express.json());
