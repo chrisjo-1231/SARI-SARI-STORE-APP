@@ -13,7 +13,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    https://sari-sari-store-app-gamma.vercel.app"
+    "https://sari-sari-store-app-gamma.vercel.app",
   ],
   credentials: true,
 }));
