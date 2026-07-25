@@ -41,7 +41,7 @@ export default function Reports(){
 
 
       const res = await fetch(
-        "http://localhost:5000/api/reports",
+        "https://sari-sari-store-app.onrender.com/api/reports",
         {
           headers:{
             Authorization:`Bearer ${token}`
